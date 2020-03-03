@@ -1,0 +1,22 @@
+.button2	{ 	width: 100px;
+         	height: 50px;
+	      	color: blue;
+	     	border: 1px ridge rgba(1,2,3,.3);
+			display: inline;
+			position: relative;
+			margin-top: 50px;
+			margin-left: 20px;
+	}		
+
+button2:hover 	{	
+			width: 100px;
+         	height: 50px;
+			display: inline;
+			position: relative;
+			margin-top: 50px;
+			margin-left:20px;
+			
+			color: white;
+			background-color: black;
+			border: 1px ridge rgba(1,2,3,.3);
+		}	

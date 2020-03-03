@@ -1,0 +1,70 @@
+#one{   color: blue;	
+				font-family: 'Century Gothic';
+				font-size: 700%;
+				position: relative;
+				top: 0px;
+				left: 100px;
+				display: inline-block;
+				
+				animation-name: letter;
+				animation-duration: 2s;
+				animation-delay: 1s;
+				animation-timing-function: ease-out;
+			}
+	 
+		#two{ 	color: blue;	
+				font-family: 'Century Gothic';
+				font-size: 250%;
+				position: relative;
+				top: 0px;
+				left: 100px;
+				display: inline-block;
+	   
+				animation-name: letter;
+				animation-duration: 2s;
+				animation-delay: 1s;
+				animation-timing-function: ease-out;
+			}
+			
+		@keyframes letter{ 0% { top: 0px;
+					  left: 0px;
+					}
+			     100%  { top: 0px;
+					  left: 100px;
+				    }
+				}
+	 
+	 	img {  
+			   
+			   animation-name: Picture;
+			   animation-duration: 3s;
+			   animation-fill-mode: forwards;
+			 }
+			 
+		@keyframes Picture{ 
+							from { opacity: 0; }
+							
+							to { opacity: 0.2; }
+						  } 
+						  
+		#biggestbox {   background-image: linear-gradient(to right, blue, powderblue, skyblue, white);
+					    width: 75vw;
+						height: 100vh;
+						top: 0vh;
+						left: -100vw;
+						opacity: 0.3;
+			  
+						animation-name: bigbox1;
+						animation-duration: 2s;
+						animation-delay: 1s; 
+						position: absolute;
+						animation-timing-function: ease-out;
+						animation-fill-mode: forwards;			  
+					}
+			
+        @keyframes bigbox1 { 0% { top: 0vh;
+						  left: -100vw;
+						}
+					 100% { top: 0vh;
+							left: 0vw;
+						  }
