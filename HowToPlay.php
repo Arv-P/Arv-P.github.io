@@ -22,7 +22,7 @@
 		//echo "<div id='two'> timer.. </div><br/>";
 		//echo "<div id='two'> The goal is to form as many words as possible within the stipulated time! </div><br/>";
 		
-		echo "<a href='Homepage.html'><input type='button' class='button' value='Main Menu'></a>";
+		echo "<a href='index.html'><input type='button' class='button' value='Main Menu'></a>";
 	echo "</div>";
 		
 				

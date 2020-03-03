@@ -55,7 +55,7 @@ if ($result->num_rows > 0)
 		echo "<br/><br/>";
 		echo "<a href='WordCheck.php'><input type='button' class='button' value='New Word'></a>";
 		echo "<a href='Display_ans.php'><input type='button' class='button' value='See Word'></a>";
-		echo "<a href='Homepage.html'><input type='button' class='button' value='Main Menu'></a>";
+		echo "<a href='index.html'><input type='button' class='button' value='Main Menu'></a>";
 	}
 else 
 	{
